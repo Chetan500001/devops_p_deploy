@@ -136,9 +136,9 @@ function startGame() {
     playerName = playerNameInput.value.trim() || 'Player';
     playerNameDisplay.textContent = playerName;
     
-    console.log('Toggling screens...');
-    welcomeScreen.classList.add('hidden');
-    gameScreen.classList.remove('hidden');
+    // console.log('Toggling screens...');
+    // welcomeScreen.classList.add('hidden');
+    // gameScreen.classList.remove('hidden');
     
     // Reset game state
     playerPoint = 0;
